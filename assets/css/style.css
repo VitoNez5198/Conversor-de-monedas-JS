@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    padding: 0px 40px;
+    background-color: #2583ff;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #006eff;
+    color: white;
+    margin: 15px auto;
+
+}
+
+button{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#descripcionInput{
+    font-size: 20px;
+}
+
+input{
+    font-size: 18px;
+    padding: 10px;
+}
+
+option,select {
+    font-size: 18px;
+    padding: 5px;
+
+}
+
+
+
+
+.containerGraph{
+    display: block;
+    align-content: center;
+    margin: auto;    
+    background-color: #b7dcff;
+}
+
+

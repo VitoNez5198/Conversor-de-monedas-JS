@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Conversor de monedas</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="conversor">
+            <h1>Conversor de monedas Nacional</h1>
+            <span id="descripcionInput"><b>CLP = </b></span> <input placeholder="Ingrese Cantidad" type="number" id="monedaNac">
+            <h3>Moneda a convertir:</h3>
+                <select name="monedas" id="monedaExtra" class="form-control">
+                    <option value="dolar">Dólar</option>
+                    <option value="euro">Euro</option>
+                </select>
+            <div>
+                <button id="btn">Buscar</button>
+            </div>
+            <h2>Resultado: <span id="resultado"></span></h2>
+        </div>
+
+    </div>
+
+    <div class="containerGraph">
+        <div class="grafica">
+            <span class="error"></span>
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+
+</html>
